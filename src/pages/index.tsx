@@ -29,9 +29,11 @@ export default function Home() {
                 className={[styles.cardDescription, styles.cardLeft].join(" ")}
               >
                 <small>Hair loss</small>
-                <span>Hair loss needn't be irreversible. We can help!</span>
+                <span>
+                  Hair loss needn&apos;t be irreversible. We can help!
+                </span>
                 <p>
-                  We're working around the clock to bring you a holistic
+                  We&apos;re working around the clock to bring you a holistic
                   approach to your wellness. From top to bottom, inside and out.
                 </p>
               </div>
@@ -45,7 +47,7 @@ export default function Home() {
                   Erections can be a tricky thing. But no need to feel down!
                 </span>
                 <p>
-                  We're working around the clock to bring you a holistic
+                  We&apos;re working around the clock to bring you a holistic
                   approach to your wellness. From top to bottom, inside and out.
                 </p>
               </div>

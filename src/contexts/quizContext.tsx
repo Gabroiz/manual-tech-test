@@ -53,7 +53,7 @@ export function QuizContextProvider({ children }: { children: ReactNode }) {
   }, []);
 
   useEffect(() => {
-    if (currentQuestion !== 0 && currentQuestion === questions.length) {
+    if (currentQuestion !== 0 && currentQuestion === questions?.length) {
       setIsQuizCompleted(true);
     }
   }, [currentQuestion]);

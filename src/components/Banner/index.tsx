@@ -23,8 +23,8 @@ export function Banner() {
         <div className={styles.bannerText}>
           <h1>Be good to yourself</h1>
           <p>
-            We're working around the clock to bring you a holistic approach to
-            your wellness. From top to bottom, inside and out.{" "}
+            We&apos;re working around the clock to bring you a holistic approach
+            to your wellness. From top to bottom, inside and out.{" "}
           </p>
           <button onClick={() => handleQuizStarted()}>Take the quiz</button>
         </div>
