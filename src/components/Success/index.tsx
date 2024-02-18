@@ -12,15 +12,23 @@ export function Success() {
       <div className={styles.step}>
         <Stepper />
       </div>
-      <h1>We have the solution for you!</h1>
-      <Image src="/assets/success.svg" alt="success" width={400} height={400} />
-      <p>
-        Great news! We have the perfect treatment for your hair loss. Proceed to{" "}
-        <Link href={"http://www.manual.co"} target="_blank">
-          www.manual.co
-        </Link>
-        , and prepare to say hello to your new hair!
-      </p>
+      <div className={styles.content}>
+        <h1>We have the solution for you!</h1>
+        <Image
+          src="/assets/success.svg"
+          alt="success"
+          width={400}
+          height={400}
+        />
+        <p>
+          Great news! We have the perfect treatment for your hair loss. Proceed
+          to{" "}
+          <Link href={"http://www.manual.co"} target="_blank">
+            www.manual.co
+          </Link>
+          , and prepare to say hello to your new hair!
+        </p>
+      </div>
       <div className={styles.buttons}>
         <button onClick={() => handleSetQuestion(currentQuestion - 1)}>
           <ChevronLeft size={20} /> Back to Quiz
