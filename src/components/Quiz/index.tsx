@@ -1,10 +1,10 @@
 import styles from "./styles.module.scss";
-import { Stepper } from "../Stepper";
+import { Stepper } from "./Stepper";
 import { useQuizContext } from "@/contexts/quizContext";
-import { Header } from "../Header";
-import { Container } from "../Container";
-import { Success } from "../Success";
-import { Rejected } from "../Rejected";
+import { Header } from "./Header";
+import { Container } from "./Container";
+import { Success } from "./Success";
+import { Rejected } from "./Rejected";
 
 export default function Quiz() {
   const {
